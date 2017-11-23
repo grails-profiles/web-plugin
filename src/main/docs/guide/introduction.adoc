@@ -6,8 +6,12 @@ To create an application using the `react` profile you can use the next command:
 grails create-plugin myplugin --profile=web-plugin
 ----
 
-Also, you could create a Grails plugin using the `web-plugin` profile with the http://start.grails.org[Grails Application Forge]
 
-image::start.png[]
+You can also choose this project when generating your project from the http://start.grails.org[Grails Application Forge], either from the web app or via the API:
+
+[source, bash]
+----
+curl -O start.grails.org/mywebplugin.zip -d profile=web-plugin
+----
 
 Grails Application Forge is a great way to discover the different provided features in the profile.
